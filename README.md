@@ -1,6 +1,6 @@
 # C5 Injector
 
-C5 Injector is a penetration testing shell toolkit built by **Gibson Walker** aka **badboigibby**.
+C5 Injector is a penetration testing shell toolkit built by **Gibson Walker**.
 
 ## ✅ Features
 - Professional Penetration Testing Shell
