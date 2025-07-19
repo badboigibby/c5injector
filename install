@@ -1,0 +1,14 @@
+#!/bin/bash
+
+SCRIPT=$1
+
+if [ -z "$SCRIPT" ]; then
+    echo "❌ Usage: bash install <script.sh>"
+    exit 1
+fi
+
+chmod +x "$SCRIPT"
+BASENAME=$(basename "$SCRIPT" .sh)
+sudo cp "$SCRIPT" /usr/local/bin/$BASENAME
+
+echo "✅ Installed globally! Run it using: $BASENAME"
