@@ -37,12 +37,12 @@ if [ -z "$TARGET" ]; then
     exit 1
 fi
 
-SCRIPT_DIR="$(dirname "$0")"
+echo "[*] Starting OAG Killchain for $TARGET"
 
-bash "$SCRIPT_DIR/scripts/auto_recon.sh" $TARGET
-bash "$SCRIPT_DIR/scripts/enum.sh" $TARGET
-bash "$SCRIPT_DIR/scripts/crack.sh" $TARGET
-bash "$SCRIPT_DIR/scripts/inject.sh" $TARGET
-bash "$SCRIPT_DIR/scripts/exploit.sh" $TARGET
-bash "$SCRIPT_DIR/scripts/loot.sh" $TARGET
-bash "$SCRIPT_DIR/scripts/cleanup.sh" $TARGET
+bash "$PROJECT_DIR/scripts/auto_recon.sh" $TARGET
+bash "$PROJECT_DIR/scripts/enum.sh" $TARGET
+bash "$PROJECT_DIR/scripts/crack.sh" $TARGET
+bash "$PROJECT_DIR/scripts/inject.sh" $TARGET
+bash "$PROJECT_DIR/scripts/exploit.sh" $TARGET
+bash "$PROJECT_DIR/scripts/loot.sh" $TARGET
+bash "$PROJECT_DIR/scripts/cleanup.sh" $TARGET
