@@ -1,5 +1,5 @@
 #!/bin/bash
-
+PROJECT_DIR="/home/badboigibby/Desktop/oag.kit"
 
 clear
 figlet "C5 INJECTOR"
