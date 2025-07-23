@@ -25,4 +25,4 @@ echo -e "\n\e[1;33mInstalling Toolkit...\e[0m"
 sleep 1
 
 echo "✅ Installed globally! Run it using: $BASENAME"
-echo -e "\n\e[1;32mToolkit Installed Successfully C5 INJECTOR in ~/toolkit\e[0m"
+echo -e "\n\e[1;32mC5 INJECTOR Installed Successfully \e[0m"
